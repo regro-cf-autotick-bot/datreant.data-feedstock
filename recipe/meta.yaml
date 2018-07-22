@@ -1,5 +1,5 @@
-{% set version = "0.6.0" %}
-{% set sha256 = "a124c0598ac55b71de43447a2398b1508452e07ea7d7369ee70428a1de9f977f"%}
+{% set version = "0.7.1" %}
+{% set sha256 = "674a70c645b773a02a416ebc3ea802b7fb45613a0595ca5f26fc4dad15ca77b8" %}
 
 package:
   name: datreant.data
@@ -21,7 +21,7 @@ requirements:
 
   run:
     - python
-    - datreant
+    - datreant <=1.0
     - datreant.core
     - numpy
     - pandas
